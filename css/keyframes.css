@@ -1,0 +1,139 @@
+@import url('./styles.css');
+#color5{
+    animation: circulo 6s infinite alternate;
+}
+
+
+@keyframes circulo {
+    0%{
+        fill:var(--primary-color);
+    }
+
+    10%{
+        transform: translateY(2%);
+    }
+
+    30%{
+        transform: translateX(1%) translateY(-2%);
+        
+    }
+    100%{
+        transform: translateX(20%) translateY(-2%);
+    }
+
+}
+
+
+#top-left {
+    animation: esquinas-superiores 4s infinite alternate ease-out;
+}
+
+#top-right{
+    animation: esquinas-superiores 4s infinite alternate ease-out;
+
+}
+
+
+@keyframes esquinas-superiores {
+    0% {
+        fill: var(--primary-color);
+    }
+    20% {
+        transform: translateX(-5%) translateY(-1%);
+
+    }
+    40%{
+        transform: translateX(-4%) translateY(0%);
+
+    }
+    75%{
+        transform: translateX(0%) translateY(0%);
+
+    }
+    100%{
+        transform: translateX(5%) translateY(1%);
+
+    }
+}
+
+
+#buttom-left{
+    
+    animation: esquinas-inferiores 4s infinite alternate ease-out;
+}
+#buttom-right{
+    
+    animation: esquinas-inferiores 4s infinite alternate ease-out;
+
+}
+@keyframes esquinas-inferiores {
+    0% {
+        fill: var(--primary-color);
+    }
+
+    20% {
+        transform: translateX(-5%) translateY(-1%);
+
+    }
+
+    40% {
+        transform: translateX(-4%) translateY(0%);
+
+    }
+
+    75% {
+        transform: translateX(0%) translateY(0%);
+
+    }
+
+    100% {
+        transform: translateX(5%) translateY(1%);
+
+    }
+}
+
+
+
+
+
+
+
+/*  */
+ /* S V G  */
+
+
+
+
+
+
+.ilustration {
+    display: block;
+}
+
+#color1 {
+    fill: var(--primary-color);
+    background: var(--primary-color);
+}
+
+#color2 {
+    fill: var(--primary-color);
+}
+
+#color3 {
+    fill: var(--primary-color);
+}
+
+#color4 {
+    fill: var(--primary-color);
+}
+
+#color5 {
+    fill: var(--primary-color);
+}
+
+
+
+#bg-card-min {
+    fill: var(--bg-card-color);
+}
+
